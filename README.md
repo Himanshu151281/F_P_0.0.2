@@ -129,41 +129,6 @@ NTAN E-Commerce Platform
 - **Platform Analytics**: Overall platform performance metrics
 - **Financial Oversight**: Transaction monitoring and reporting
 
-## 🔧 API Endpoints
-
-### Authentication
-```
-POST /api/users/register          - User registration
-POST /api/users/login             - User login
-POST /api/users/verify-otp        - Phone verification
-POST /api/users/refresh-token     - Refresh JWT token
-```
-
-### Products
-```
-GET  /api/products                - Get all products
-GET  /api/products/:id            - Get product by ID
-POST /api/products                - Create product (Auth required)
-PUT  /api/products/:id            - Update product (Auth required)
-DELETE /api/products/:id          - Delete product (Auth required)
-GET  /api/products/my-products    - Get seller's products
-```
-
-### Orders
-```
-GET  /api/orders                  - Get user orders
-POST /api/orders                  - Create new order
-GET  /api/orders/:id              - Get order by ID
-PUT  /api/orders/:id/status       - Update order status (Admin)
-```
-
-### Payments
-```
-POST /api/payments/phonepe        - Create PhonePe payment
-POST /api/payments/verify         - Verify payment status
-GET  /api/transactions            - Get transaction history
-```
-
 ## 🎨 Frontend Components
 
 ### Page Components
